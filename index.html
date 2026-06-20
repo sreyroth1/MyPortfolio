@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SREYROTH | Web Developer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="navbar">
+      <div class="nav-container">
+        <a href="#home" class="logo">My<span>Portfolio</span></a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#volunteer">Volunteer</a></li>
+          <li><a href="#training">Training</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-controls">
+          <button id="theme-toggle" aria-label="Toggle Dark Mode">
+            <i class="fas fa-moon"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div class="scroll-progress" aria-hidden="true">
+      <span class="scroll-progress-bar"></span>
+    </div>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content reveal">
+          <h1>Hi, I'm <span class="highlight">SREYROTH SANG</span></h1>
+          <h2><span id="typing-role">Web Developer</span></h2>
+          <p>
+            Building efficient, responsive, and user-friendly web applications.
+          </p>
+          <div class="hero-buttons">
+            <a
+              href="./assets/contact_media/SREYROTH SANG-Curriculum Vitae.pdf"
+              class="btn btn-primary"
+              download
+              ><i class="fas fa-download"></i> Download CV</a
+            >
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="profile-circle">
+            <img src="assets/images/image.png" alt="Profile Picture" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container reveal">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content card">
+          <p>
+            Motivated web development student at
+            <strong>Passerelles Numériques Cambodia (PNC)</strong> with
+            foundational skills in HTML, CSS, JavaScript, PHP, and MySQL.
+            Familiar with using AI tools to support development and
+            problem-solving. Eager to apply technical knowledge, learn quickly,
+            and contribute to building efficient and user-friendly web
+            applications.
+          </p>
+        </div>
+
+        <div class="grid-2 mt-2">
+          <!-- Education -->
+          <div class="card">
+            <h3>
+              <i class="fas fa-graduation-cap highlight-icon"></i> Education
+            </h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <h4>Web Development (Full Scholarship)</h4>
+                <p>
+                  Passerelles Numériques Cambodia (PNC) |
+                  <em>2025 – Present</em>
+                </p>
+              </div>
+              <div class="timeline-item">
+                <h4>High School Diploma</h4>
+                <p>Phnom Kravanh High School | <em>2021 – 2024</em></p>
+              </div>
+            </div>
+          </div>
+          <!-- Languages -->
+          <div class="card">
+            <h3><i class="fas fa-language highlight-icon"></i> Languages</h3>
+            <ul class="list-style">
+              <li><strong>Khmer:</strong> Native</li>
+              <li><strong>English:</strong> Intermediate</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-alt">
+      <div class="container reveal">
+        <h2 class="section-title">Technical & Soft Skills</h2>
+        <div class="grid-3">
+          <!-- Frontend & Backend Progress Bars -->
+          <div class="card">
+            <h3><i class="fas fa-laptop-code highlight-icon"></i> Core Tech</h3>
+            <div class="skill-box">
+              <span class="skill-name">HTML/CSS</span>
+              <div class="progress-bar">
+                <div class="progress" data-width="90%"></div>
+              </div>
+            </div>
+            <div class="skill-box">
+              <span class="skill-name">JavaScript</span>
+              <div class="progress-bar">
+                <div class="progress" data-width="80%"></div>
+              </div>
+            </div>
+            <div class="skill-box">
+              <span class="skill-name">PHP / OOP</span>
+              <div class="progress-bar">
+                <div class="progress" data-width="75%"></div>
+              </div>
+            </div>
+            <div class="skill-box">
+              <span class="skill-name">Node.js</span>
+              <div class="progress-bar">
+                <div class="progress" data-width="70%"></div>
+              </div>
+            </div>
+            <div class="skill-box">
+              <span class="skill-name">MySQL (SQL/NoSQL)</span>
+              <div class="progress-bar">
+                <div class="progress" data-width="75%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="card">
+            <h3>
+              <i class="fas fa-tools highlight-icon"></i> Tools & Software
+            </h3>
+            <div class="tags">
+              <span class="tag">GitHub</span>
+              <span class="tag">Postman</span>
+              <span class="tag">Vercel</span>
+              <span class="tag">VS Code</span>
+              <span class="tag">Google Docs</span>
+              <span class="tag">MS Word</span>
+              <span class="tag">MS Excel</span>
+              <span class="tag">PowerPoint</span>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="card">
+            <h3><i class="fas fa-users highlight-icon"></i> Soft Skills</h3>
+            <ul class="list-style check-list">
+              <li>Management & Negotiation</li>
+              <li>Team Collaboration & Communication</li>
+              <li>Responsibility & Attention to Detail</li>
+              <li>Time Management</li>
+              <li>Adaptability</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container reveal">
+        <h2 class="section-title">My Projects</h2>
+        <div class="grid-2">
+          <!-- Project 1 -->
+          <div class="card project-card">
+            <div class="project-content">
+              <h3>Attendance Management System</h3>
+              <p class="role">Role: Full-stack Developer (Team Project)</p>
+              <p>
+                A comprehensive system to track and manage student/employee
+                attendance efficiently.
+              </p>
+              <div class="tags">
+                <span class="tag">HTML/CSS</span> <span class="tag">JS</span>
+                <span class="tag">PHP</span> <span class="tag">MySQL</span>
+              </div>
+              <a href="#" class="btn btn-outline"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="card project-card">
+            <div class="project-content">
+              <h3>Weather Web App</h3>
+              <p class="role">Role: Scrum Master & Developer</p>
+              <p>
+                A responsive web application that fetches and displays real-time
+                weather data using external APIs.
+              </p>
+              <div class="tags">
+                <span class="tag">HTML/CSS</span> <span class="tag">JS</span>
+                <span class="tag">API Integration</span>
+              </div>
+              <a href="#" class="btn btn-outline"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="card project-card">
+            <div class="project-content">
+              <h3>Inventory Management System</h3>
+              <p class="role">Role: Solo Developer</p>
+              <p>
+                An algorithm-based system designed to manage stock levels,
+                orders, and inventory tracking.
+              </p>
+              <div class="tags">
+                <span class="tag">Algorithms</span> <span class="tag">JS</span>
+                <span class="tag">Node.js</span>
+              </div>
+              <a href="#" class="btn btn-outline"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+          <!-- Project 4 -->
+          <div class="card project-card">
+            <div class="project-content">
+              <h3>Bake Shop Web App</h3>
+              <p class="role">Role: Front-End Developer</p>
+              <p>
+                A visually appealing and fully responsive landing page for a
+                local bakery.
+              </p>
+              <div class="tags">
+                <span class="tag">HTML</span> <span class="tag">CSS</span>
+                <span class="tag">Responsive Design</span>
+              </div>
+              <a href="#" class="btn btn-outline"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Volunteer Section -->
+    <section id="volunteer" class="section bg-alt">
+      <div class="container reveal">
+        <h2 class="section-title">Volunteer</h2>
+        <div class="grid-2">
+          <div class="card hover-up">
+            <div class="section-image">
+              <img
+                src="assets/images/Student Supervisor.jpg"
+                alt="Student Supervisor"
+              />
+            </div>
+            <h3>
+              <i class="fas fa-hands-helping highlight-icon"></i> Student
+              Supervisor
+            </h3>
+            <p><strong>PNC</strong> | <em>Jan 2026 – Present</em></p>
+            <p>
+              Supervising and mentoring 33 female PNC 2027 students, guiding
+              them through technical challenges and personal development.
+            </p>
+          </div>
+          <div class="card hover-up">
+            <div class="section-image">
+              <img
+                src="assets/images/Student Supervisor.jpg"
+                alt="Sisters of Code Ambassador"
+              />
+            </div>
+            <h3>
+              <i class="fas fa-code highlight-icon"></i> Sisters of Code
+              Ambassador
+            </h3>
+            <p><strong>Sisters of Code</strong> | <em>2026</em></p>
+            <p>
+              Promoting tech education and organizing coding workshops for
+              aspiring female developers in Cambodia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Training Section -->
+    <section id="training" class="section">
+      <div class="container reveal">
+        <h2 class="section-title">Training & Development</h2>
+        <div class="grid-2">
+          <div class="card hover-up">
+            <div class="section-image">
+              <img
+                src="assets/images/Student Supervisor.jpg"
+                alt="Full Stack Development Bootcamp"
+              />
+            </div>
+            <h4>Full Stack Development Bootcamp</h4>
+            <p><strong>PNC</strong> | <em>2025 – 2026</em></p>
+            <p>
+              Intensive 12-month program covering frontend and backend
+              development. Learned PHP, MySQL, Node.js, and modern JavaScript
+              frameworks.
+            </p>
+          </div>
+          <div class="card hover-up">
+            <div class="section-image">
+              <img
+                src="assets/images/Student Supervisor.jpg"
+                alt="Leadership & Professional Development"
+              />
+            </div>
+            <h4>Leadership & Professional Development</h4>
+            <p><strong>YRDP</strong> | <em>2025</em></p>
+            <p>
+              Completed training on leadership skills, team management, and
+              professional communication. Gained public speaking and project
+              coordination skills.
+            </p>
+          </div>
+          <div class="card hover-up">
+            <div class="section-image">
+              <img
+                src="assets/images/Student Supervisor.jpg"
+                alt="Digital Security Training"
+              />
+            </div>
+            <h4>Digital Security Training</h4>
+            <p><strong>Evolution Business</strong> | <em>2025</em></p>
+            <p>
+              Learned essential cybersecurity practices, data protection
+              methods, and how to secure web applications.
+            </p>
+          </div>
+          <div class="card hover-up">
+            <div class="section-image">
+              <img
+                src="assets/images/Student Supervisor.jpg"
+                alt="Youth Digital Storytelling"
+              />
+            </div>
+            <h4>Youth Digital Storytelling</h4>
+            <p><strong>VBNK Organization</strong> | <em>2024</em></p>
+            <p>
+              Training on using digital tools for storytelling. Created
+              multimedia presentations and video editing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+      <div class="container reveal">
+        <h2 class="section-title">Achievements</h2>
+        <div class="grid-3">
+          <div
+            class="card text-center hover-up achievement-card"
+            role="button"
+            tabindex="0"
+            aria-haspopup="dialog"
+          >
+            <i class="fas fa-award fa-3x highlight-icon mb-1"></i>
+            <h4>Full Scholarship</h4>
+            <p>Passerelles Numériques Cambodia (2024–2026)</p>
+          </div>
+          <div
+            class="card text-center hover-up achievement-card"
+            role="button"
+            tabindex="0"
+            aria-haspopup="dialog"
+          >
+            <i class="fas fa-star fa-3x highlight-icon mb-1"></i>
+            <h4>Sister of Code</h4>
+            <p>Ambassador (2026)</p>
+          </div>
+          <div
+            class="card text-center hover-up achievement-card"
+            role="button"
+            tabindex="0"
+            aria-haspopup="dialog"
+          >
+            <i class="fas fa-trophy fa-3x highlight-icon mb-1"></i>
+            <h4>1st Place</h4>
+            <p>JavaScript Project (2026)</p>
+          </div>
+          <div
+            class="card text-center hover-up achievement-card"
+            role="button"
+            tabindex="0"
+            aria-haspopup="dialog"
+          >
+            <i class="fas fa-medal fa-3x highlight-icon mb-1"></i>
+            <h4>1st Place</h4>
+            <p>English for IT Project (2026)</p>
+          </div>
+          <div
+            class="card text-center hover-up achievement-card"
+            role="button"
+            tabindex="0"
+            aria-haspopup="dialog"
+          >
+            <i class="fas fa-microphone fa-3x highlight-icon mb-1"></i>
+            <h4>Speaker & Debater</h4>
+            <p>Debate Winner (2x) | Public Speaking (3rd Place)</p>
+          </div>
+          <div
+            class="card text-center hover-up achievement-card"
+            role="button"
+            tabindex="0"
+            aria-haspopup="dialog"
+            data-preview-images="assets/images/Student Supervisor.jpg|assets/images/Student Supervisor.jpg"
+            data-preview-alts="Student Supervisor photo|Profile photo"
+          >
+            <i class="fas fa-network-wired fa-3x highlight-icon mb-1"></i>
+            <h4>Representative</h4>
+            <p>Girls in ICT Day</p>
+          </div>
+        </div>
+        <div class="text-center mt-2">
+          <a href="achievements.html" class="btn btn-outline">
+            View Full Achievements Page
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="achievement-modal" aria-hidden="true">
+      <div class="achievement-modal-backdrop"></div>
+      <div
+        class="achievement-modal-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="achievement-modal-title"
+      >
+        <button
+          class="achievement-modal-close"
+          type="button"
+          aria-label="Close achievement preview"
+        >
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="achievement-modal-visual">
+          <img class="achievement-modal-image" alt="Achievement preview" />
+          <span class="achievement-modal-counter">1 / 1</span>
+        </div>
+        <div class="achievement-modal-content">
+          <p class="achievement-modal-label">Achievement Preview</p>
+          <h3 id="achievement-modal-title"></h3>
+          <p id="achievement-modal-description"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-alt">
+      <div class="container reveal">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-wrapper card">
+          <form class="contact-form">
+            <div class="input-group">
+              <input type="text" placeholder="Your Name" required />
+            </div>
+            <div class="input-group">
+              <input type="email" placeholder="Your Email" required />
+            </div>
+            <div class="input-group">
+              <textarea rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">
+              Send Message
+            </button>
+          </form>
+          <div class="contact-info">
+            <h3>Connect with me</h3>
+            <p>
+              Feel free to reach out for collaborations, projects, or just to
+              say hi!
+            </p>
+            <div class="social-links mt-2">
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <p>&copy; 2026 SANG SREYROTH. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
